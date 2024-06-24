@@ -1,0 +1,13 @@
+Block Elements:
+Starts from new line 
+Take up all horizontal space.
+can have margins and paddings
+width and height can be set
+examples: <div>,<p>,<h1>,<ul>,<li>
+
+Inline Elements:
+Stay in the line with text 
+just as wide as content 
+no new line between Elements
+can't set size easily
+examples: <span>,<a>,<strong>,<em>,<img>

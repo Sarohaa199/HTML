@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Form tag
+   <form> tag is used to create the form
+    1.<input> tag is used to collect user input
+      it is self closing tag means doesn't requires closing tag
+      Common attributes are name,value,placeholder and required.
+
+      Action attribute:
+      specifies the URL to which the form data should be sent when submitted
+      if not specified ,the form will be submitted to the current page URL's.
+      Usually points to a server-side script(
+      like PHP,python,etc) that processes the form data
+
+      'Name' property:
+      Identifies form elements when submitting
+      should be unique to each element for clarity
+
+      'value' property:
+      Sets intial value for input elements.
+      This is the data sent when form is submitted
+
+      Label Tag:
+      Adds a text description to form elements
+      connects the label to a specific form element using the element's id.
+      Makes the form more accessible
+      Enhances form readbility and usability
+  --> <!---
+    <form action="/HTML/Level2/image.html">
+      <label for="username">Name</label>
+      <input type="text" id="username" placeholder="Email"> <br>
+      <label for="Password"> Password</label>
+      <input type="password" id="password" required="true"> <br>
+      <label for="time">Time</label>
+      <input type="datetime-local" id="time"><br>
+      <label for="file">File:</label>
+      <input type="file" id="file"><br>
+      <label for="color">Color:</label>
+      <input type="color" id="color"><br>
+      <label for="range">Price Range</label>
+      <input type="range" id="range"><br>
+      <input type="button" value="confirm">
+      <input type="submit">
+      <br>
+      <br><br><br> -->
+
+      <!-- Radio button-->
+       <label for="male">Male</label>
+       <input type="radio" name="gender" id="male" value="male"><br>
+       <label for="female">Female</label>
+       <input type="radio" name="gender" id="female" value="female"><br>
+       <label for="others">Others</label>
+       <input type="radio" name="gender" id="others" value="other"><br>
+
+       <!-- Checkbox-->
+        <label for="mango">Mango</label>
+        <input type="checkbox" id="mango" name="fruits" value="mango"><br>
+        <label for="apple">Apple</label>
+        <input type="checkbox" id="apple" name="fruits" value="apple"><br>
+        <label for="banana">banana</label>
+        <input type="checkbox" id="banana" name="fruits" value="banana"><br> 
+
+        <!-- Select or dropdown button-->
+         <label for="countries">Country</label>
+         <select name="country" id="countires">
+          <option value="India">India</option>
+          <option value="US">USA</option>
+         </select><br>
+
+         <!-- Text area
+         USed for multi-line text input in forms
+         1. row property:specifies the visible numbers of lines in the textarea
+         2. cols property: sets the visible measured in average character widths.
+         Some browser allows users to manually resize the textarea
+         -->
+
+        <textarea name="story" id="story" rows="5" cols="5" >please write a story</textarea> <br><br><br> -->
+
+        <!-- IframeTag 
+        Allows you to embed another webpage or multimedia content within a webpage
+        'src' attribute: specifies the URL of the content to be embeded
+        width and height can be set using width and height attributes 
+        -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bmhZWobl0aQ?si=lkf5nd47H-wqJ4_1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </form>
+</body>
+</html>

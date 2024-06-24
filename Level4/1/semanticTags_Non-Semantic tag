@@ -1,0 +1,11 @@
+Semantic Tags:
+Meaningful: It basically describe the content
+SEO: basically good for search engines
+Accessibilty:Useful for screen readers.
+Examples: <header>,<footer>,<article>,<section>,<nav>
+
+Non-Semantic Tags:
+Generic:No Specific Meaning
+For Styling:used for layout
+No SEO: No SEO-Friendly
+Examples:<div>,<i>,<b>
